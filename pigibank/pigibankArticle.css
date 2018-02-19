@@ -6,7 +6,7 @@ body, html {
 
 .parallax {
     /* The image used */
-    background-image: url("pigibank_article/pigibankbackground.png");
+    background-image: url("pigibank_article/cryptoKnightbackground.png");
 
     /* Full height */
     height: 100%;
@@ -69,7 +69,7 @@ ul, li {
   display: inline;
 }
 
-.centre img {
+.centre img, iframe {
   margin-left: auto;
 	margin-right: auto;
 	display: block;
