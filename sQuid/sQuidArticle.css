@@ -4,23 +4,9 @@ body, html {
   height: 100%;
 }
 
-.parallax {
-    /* The image used */
-    background-image: url("sQuid_article/sQuidbackground2.png");
-
-    /* Full height */
-    height: 100%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .scroller {
   height: 3200px;
-  background: #151515;
+  background: #30b3ff;
   font-family: Montserrat;
   color: white;
 }
@@ -70,4 +56,16 @@ body, html {
 	margin-right: auto;
 	display: block;
   padding: 20px;
+}
+
+#title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: none !important;
+}
+
+img{
+  border: 3px solid white;
 }
