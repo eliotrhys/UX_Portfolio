@@ -1,5 +1,9 @@
 body {
   background-color: #141414;
+  font-family: Montserrat;
+  color: white;
+  padding: 0px;
+  margin: 0px;
 }
 
 #coolguy {
@@ -11,52 +15,27 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.centre_images {
-  margin-top: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  border: 3px solid white;
-}
-
-.centre_images2 {
-  /* margin-top: 1000px; */
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  border: 3px solid white;
-}
-
 .content {
   margin-top: 180px;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
-  font-family: Montserrat;
-  color: white;
 }
 
-.content2 {
-  margin-top: 90px;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: Montserrat;
-  color: white;
+.textbox {
+  margin: auto;
   width: 50%;
+  font-family: Montserrat;
+  color: white;
   line-height: 1.6;
 }
 
-.content3 {
-  line-height: 1.6;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  text-align: center;
-  font-family: Montserrat;
-  color: white;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 h1 {
@@ -86,6 +65,7 @@ p {
 
 .buttonlinks{
   text-align: center;
+  margin-bottom: 60px;
 }
 
 .buttonlinks button {
@@ -106,4 +86,8 @@ p {
 #bullets {
   font-size: 20px;
   line-height: 1.6;
+}
+
+img {
+  border: 3px solid white;
 }
