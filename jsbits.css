@@ -48,6 +48,7 @@ body {
   font-family: Montserrat;
   color: #F2F2F2;
 }
+
 h1 {
   font-size: 5em;
 }
@@ -76,38 +77,43 @@ a {
 }
 
 a:hover {
-  color: #fcea28;
+  color: #6ae368;
 }
 
 /* Section 1
 * --------------------------------------- */
 #section0{
-  background-color: #ff9797;
+  background-color: #141414;
 }
 #section0 h1{
   color: #ffffff;
 }
 #section0 p{
-  color: #333;
+  color: #aaaaaa;
 }
 /* Section 2
 * --------------------------------------- */
 #section1{
-  background-color: #49ecff;
+  background-color: #141414;
 }
 #section1 h1{
   color: #fff;
 }
+
+#section1 h2 {
+  color: #aaaaaa;
+}
+
 #section1 p{
   color: #ffffff;
 }
 /* Section 3
 * --------------------------------------- */
 #section2{
-  background-color: #4842f4;
+  background-color: #141414;
 }
 #section2 h1{
-  color: #F2F2F2;
+  color: #aaaaaa;
 }
 #section2 p{
   color: #ffffff;
